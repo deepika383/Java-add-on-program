@@ -1,0 +1,21 @@
+package day6;
+import java.util.*;
+
+public class Studenttask3 {
+
+	public static void main(String[] args) {
+		HashMap<String,Integer> stdMk=new HashMap();
+		stdent Marks.put("John", 100);
+		stdent Marks.put("ram",50);
+		stdent Marks.put("hari",60);
+		
+		int totalMark=0;
+		for(int marks:stdMk.values()) {
+			totalMark +=marks;
+			
+		}
+		
+		System.out.println(totalMark);
+	}
+
+}
