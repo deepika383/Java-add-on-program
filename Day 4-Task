@@ -1,0 +1,17 @@
+package Programs;
+ 
+abstract class StudentManagement{
+	private String Student;
+	private int Marks;
+    StudentManagement(String Student,int Marks){
+    	this.Student= Student;
+    	this.
+    }
+}
+public class Student {
+
+	public static void main(String[] args) {
+
+	}
+
+}
