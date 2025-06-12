@@ -1,0 +1,22 @@
+package inheritence;
+
+public class task2 {
+
+
+		void salary(String employees,int salary) {
+			System.out.println(" employees:"+employees);
+			System.out.println("salary per person:"+salary);
+		}
+		void salary(String employees,int salary,int hours) {
+			int total = salary*hours;
+			System.out.println(" salary for 10 employees:"+total);
+			
+		}
+		public static void main(String[] args) {
+			task2 in=new task2();
+			in.salary("full time employees", 10000);
+			in.salary(" employes salary", 10000,10);
+			
+		}
+
+	}
