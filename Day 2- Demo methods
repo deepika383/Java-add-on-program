@@ -1,0 +1,17 @@
+package Day2;
+
+public class demoMethod {
+	
+	public static void Details(String name,String job,String Package) {
+		System.out.println("name"+" "+name+" "+job+" "+Package);
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Details("John","trainer","4lpa");
+Details("Deepika","developer","4lpa");
+
+	}
+
+}
