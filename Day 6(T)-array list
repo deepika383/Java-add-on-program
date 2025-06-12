@@ -1,0 +1,26 @@
+package Array;
+import java.util.ArrayList;
+
+public class Student {
+	
+		public static void main(String[] args) {
+			ArrayList<Object> arr = new ArrayList<Object>();
+			
+			arr.add("Deepika");
+			arr.add("A");
+			arr.add("Computer Applications");
+			arr.add("3 Year");
+			arr.add(0,"deepi");
+			
+			
+			
+			
+			for(Object data:arr){
+				System.out.println(data);
+				
+			}
+		
+
+	}
+
+}
