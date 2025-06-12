@@ -1,0 +1,33 @@
+package Programs;
+ 
+abstract class StudentManagement{
+	private String Student;
+	private int Marks;
+    StudentManagement(String Student,int Marks){
+    	this.Student= Student;
+    	this.mark;
+    }
+}
+public class Student {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+ public void setResult(int Result) {
+    	Marks += Result;
+    	System.out.println("Display Result:"+ Result);
+    }
+   
+public class Student {
+
+	public static void main(String[] args) {
+		StudentManagement in= new StudentManagement("Deepika",98 + 90 + 100); 
+		System.out.println("Student Name:"+in.getStudent());
+		System.out.println("Student Mark:"+ in.getMarks());
+		in.setResult(96 );
+		
+
+	}
+	
