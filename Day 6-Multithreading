@@ -1,0 +1,27 @@
+package program;
+
+public class Main extends Thread{
+private String Name;
+Main(String Name){
+ this.Name=Name;
+}
+public void run() {
+ for(int i=1;i<=5;i++) {
+  System.out.println(Name);
+  try {
+   Thread.sleep(500);
+  }catch(InterruptedException e) {
+   e.printStackTrace();
+   }
+ }
+}
+ class Excute{
+public static void main(String[] args) {
+ Main m1=new Main("Thread-1");
+ Main m2=new Main("Thread-2");
+          m1.start();
+          m2.start();
+ }
+
+}
+}
