@@ -1,0 +1,15 @@
+package Day06;
+
+public class test {
+ public void display(int num) {
+	 for(int i=num;i<=10;i++) {
+		 System.out.println(i);
+	 }
+	 
+ }
+	public static void main(String[] args) {
+		test t=new test();
+		t.display(5);
+	}
+
+}
