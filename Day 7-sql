@@ -1,0 +1,35 @@
+CREATE TABLE Student (
+    StudentID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Age INT,
+    Email VARCHAR(100)
+);
+
+
+CREATE TABLE Course (
+    CourseID INT PRIMARY KEY,
+    CourseName VARCHAR(100),
+    CourseFee DECIMAL(10, 2)
+);
+
+
+INSERT INTO Student (StudentID, Name)
+INSERT INTO Student (StudentID, Name, Age, Email) VALUES
+(1, 'Alice', 20, 'alice@example.com'),
+(2, 'Bob', 22, 'bob@example.com'),
+(3, 'Charlie', 21, 'charlie@example.com'),
+(4, 'David', 23, 'david@example.com'),
+(5, 'Eva', 20, 'eva@example.com');
+
+INSERT INTO Course (CourseID, CourseName, CourseFee) VALUES
+(101, 'Java Programming', 5000.00),
+(102, 'Python Basics', 4500.00),
+(103, 'Web Development', 6000.00),
+(104, 'Database Systems', 5500.00),
+(105, 'Data Structures', 5200.00);
+
+
+UPDATE Course
+SET CourseFee = 6500.00
+WHERE CourseID = 103;  
+);
